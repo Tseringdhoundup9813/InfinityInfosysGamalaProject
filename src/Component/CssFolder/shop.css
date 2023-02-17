@@ -1,0 +1,11 @@
+
+.shop-main-container{
+
+    width:100%;
+    min-height:140vh;
+    display: flex;
+}
+
+.shop-container{
+    width:100%;
+}
