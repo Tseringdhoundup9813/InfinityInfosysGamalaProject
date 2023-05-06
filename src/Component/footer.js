@@ -17,7 +17,7 @@ function Footer(){
                 
             </div>
             <div className="footer-container">
-                <h1>Footer</h1>
+                <h1>this is footer section</h1>
             </div>
         </div>
        

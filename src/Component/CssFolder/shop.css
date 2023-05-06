@@ -9,3 +9,68 @@
 .shop-container{
     width:100%;
 }
+
+
+
+/* shop list- container  */
+
+/* end here */
+
+
+
+/*  */
+
+
+
+/*  alert css style */
+
+.itemaddAlert{
+    position: absolute;
+    top:0px;
+    left:50%;
+    width:200px;
+    height:30px;
+    background-color:rgb(146, 255, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:999;
+}
+
+
+
+/* ================================================ */
+
+.alertproductadd{
+    position:fixed;
+    top:0px;
+    top:0px;
+    left:50%;
+    background-color:rgb(255, 147, 79);
+    padding:10px 20px;
+    font-size: 1rem;
+    z-index:9999;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-50px);
+    transition:all 1s ease;
+    opacity:0.1;
+    color:white;
+}
+
+.alertproductaddTransition{
+    position:fixed;
+    top:0px;
+    top:0px;
+    left:50%;
+    background-color:rgb(255, 147, 79);
+
+    padding:10px 20px;
+    font-size: 1rem;
+    z-index:9999;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(0px);
+    transition:all 0.5s ease;
+    opacity:1;
+    color:white;
+}
+
