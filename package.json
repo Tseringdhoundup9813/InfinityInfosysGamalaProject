@@ -1,6 +1,6 @@
 {
   "name": "indoorproduct",
-  "homepage": "https://tseringdhoundhoundup9813.github.io/InfinityInfosysGamalaProject",
+  "homepage": "https://TseringDhoundhoundup9813.github.io/InfinityInfosysGamalaProject",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
